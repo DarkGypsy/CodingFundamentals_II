@@ -1,6 +1,6 @@
-import Menu from "./Rpg2.0/menu.js";
-import barra from "./Rpg2.0/barra/barra.js"
-import pantallaini from "./Rpg2.0/pantallaCarga/pantallaini.js";
+import Menu from "./menu.js";
+import barra from "./barra/barra.js"
+import pantallaini from "./pantallaCarga/pantallaini.js";
 import cheats from "./claves.js"
 async function start(){
     const menu = new Menu("Menu Inicio",[
