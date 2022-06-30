@@ -1,4 +1,3 @@
-import colores from "./colores.js";
 class menu {
     
     constructor(mensaje , opciones){
@@ -7,7 +6,7 @@ class menu {
     };
 
     mostrarOpciones(){
-       
+        console.log(this.mensaje);
         for (let index = 0; index < this.opciones.length; index++) {
           
             console.log(`${index+1}.- ${this.opciones[index]}`);
@@ -20,7 +19,8 @@ class menu {
         let userInput = prompt("->")
         while(true){
             if(this.#validateInput(userInput)) return userInput-1
-            userInput = prompt("No es una respuesta valida, intentelo de nuevo")
+            userInput = prompt("No es una respuesta valida, intentelo de nuevo");
+            
         }
     }
 

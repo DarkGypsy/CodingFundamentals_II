@@ -1,6 +1,14 @@
 export default () => new Promise(res=>{
 
-        let mensajeini = [`Se ecucha una puerta abrirse` , `Escuhas pasos que se acercan a ti` , `Se escucha alguien acercandose` , `Cada vez está mas cerca...`];
+        let mensajeini = [` 
+        
+        ` , `credito 1` , `  
+        
+        `, `credito 2` , ` 
+        
+        ` , ` 
+        
+        `  ,  `Tzuzulcode`];
         let cont = 0;
         const mensajes = setInterval(() => {
             if(cont===mensajeini.length-1){
