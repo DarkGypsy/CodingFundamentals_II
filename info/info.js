@@ -27,6 +27,4 @@ const data = [
     }
 ] 
 
-
-
 export { data };

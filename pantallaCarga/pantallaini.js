@@ -1,14 +1,6 @@
 export default () => new Promise(res=>{
 
-        let mensajeini = [` 
-        
-        ` , `credito 1` , `  
-        
-        `, `credito 2` , ` 
-        
-        ` , ` 
-        
-        `  ,  `Tzuzulcode`];
+        let mensajeini = ["Realizado por","François Emperador", "Diana Reyes", "Para: Tzuzulcode"];
         let cont = 0;
         const mensajes = setInterval(() => {
             if(cont===mensajeini.length-1){
@@ -18,7 +10,7 @@ export default () => new Promise(res=>{
             console.clear();
             console.log(mensajeini[cont]);
             cont++
-        }, 2000);
+        }, 1000);
     })
     
 
