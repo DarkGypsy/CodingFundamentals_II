@@ -1,5 +1,4 @@
 import menuInicio  from "./Menu/MenuOpciones.js";
-import Menu from "./Menu/Menu.js";
 import barra from "./barra/barra.js"
 import pantallaini from "./pantallaCarga/pantallaini.js";
 import cheats from "./claves.js"
