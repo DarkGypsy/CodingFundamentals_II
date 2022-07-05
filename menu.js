@@ -18,17 +18,22 @@ class menu {
     }
     
     getUserInput(){
-        while(true){
+        let i = true;
+
+        while(i == true){
             let userInput = prompt("->")
-            if(this.#validateInput(userInput)) return userInput-1 
+            if(this.#validateInput(userInput)){
+                i = false;
+                return userInput-1;
+            } 
             console.log("No es una respuesta valida, intentelo de nuevo");
             this.mostrarOpciones();
         }
     }
 
     #validateInput(input){
-        if (input <= this.opciones.length) {
-            return Boolean(Number(input))            
+        if (input <= this.opciones.length || input > 0) {
+            return Number(input);           
         }
     }
 }
