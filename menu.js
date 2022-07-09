@@ -32,7 +32,7 @@ class menu {
     }
 
     #validateInput(input){
-        if (input <= this.opciones.length || input > 0) {
+        if (input <= this.opciones.length && input > 0) {
             return Number(input);           
         }
     }
