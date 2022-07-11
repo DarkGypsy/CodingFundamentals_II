@@ -1,12 +1,15 @@
-import Menu from "./menu.js";
+import Menu from "./other/menu.js";
 import barra from "./barra/barra.js"
 import pantallaini from "./pantallaCarga/pantallaini.js";
-import cheats from "./claves.js"
+import cheats from "./other/claves.js"
 import nivel1 from "./Nivel1/nivel1.js"
+import {pickColor} from "./other/color.js";
+
+
 async function start(){
     const menu = new Menu("Menu Inicio",[
         "Nuevo Juego",
-        "Codigos",
+        "Codigos", "Color"
         
     ]);
     await barra();
@@ -21,10 +24,15 @@ async function start(){
         cheats();
         
     }
-   
+ 
+    if (userInput === 2){
+      
+        pickColor();
+      
+    }
     
 }
-export default start
+export default start 
 
 
 start()

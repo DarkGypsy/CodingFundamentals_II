@@ -1,0 +1,8 @@
+const texto = [`Dr. Doofenshmirtz: Todo empezo el dia en que naci, mis padres no se presentaron. Cuando cumpli 5 organice mi propia fiesta sorpresa en el mejor lugar de Druelselstein, pero jamas debes caminar por los caminos de Druelselstein con un pastel de moras descubierto o los murcielagos te atacaran... Los Doofenshmirtz eran una familia orgullosa pero eran tiempos duros para mi padre y nuestro amado gnomo de jardin fue embargado, quien protegeria nuestro jardin de los hechizos de las brujas y de los trolls? Mi padre decidio que seria yo "Nicht bewegen"(No te muevas) decia mi padre. En las noches frias cuando ladraban los sabuesos mi unica compania era la luna... Una oscura noche fui atacado por un troll
+` ,`
+Luego en la sienguente noche fui atacado por una bruja
+` , `Cuando era jove en Gimmelshtump habia un bravucon llamado Boris y usaba botas negras... Le decian Boris el bravucon de las botas negras. Siempre pateaba arena en mi cara, cuando estaba jugando... Arena, en mi primera cita... Arena, cuando hacia mis cuentas... Arena, cuando estaba en la playa... Cosa rara nada... Pero no me relaje por estar esperando
+` , `Ah, Perry el Ornitorrinco tan inesperado como siempre y con inesperado me refiero a completamente esperado, creias que hablaba solo? Esta vez no podras detenerme y usare mi vocinador para que todos escuchen mi voz en su cabeza!
+` , `Dr. Doofenshmirtz: Gracias por jugar este nivel, no seras tu un villano? Las personas honestas no usan codigos secretos en sus juegos.`]
+
+export default texto
