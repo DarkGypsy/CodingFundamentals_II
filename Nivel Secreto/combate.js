@@ -1,6 +1,6 @@
 import Menu from "../other/menu.js";
 import mostrartexto from "../other/Texto.js";
-import gameover from "../pantallaCarga/gameover.js"
+
 
 function combate(player ,enemy){
     let damage;
@@ -121,13 +121,6 @@ do {
     
 
     
-    if(player.dead === true){
-        
-           
-        gameover();
-              
-       
-    }
 } while (player.dead === false && enemy.dead === false);
 
 if (enemy.dead === true) {
